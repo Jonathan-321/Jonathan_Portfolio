@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-primary bg-primary text-white leading-loose;
+    }
+    .h1 {
+        @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+    }
+    .h2 {
+        @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+    }
+    .h3 {
+        @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+    }
+
+    .text-outline {
+        -webkit-text-stroke: 1px #ffffff;
+    }
+
+    .text-outline-hover {
+        -webkit-text-stroke: 1px #00ff99;
+    }
+}
+
+@layer utilities {
+    @keyframes jump {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-5px);
+      }
+    }
+  
+    .animate-jump {
+      animation: jump 0.5s ease-in-out infinite;
+    }
+  
+    @keyframes particle {
+      0% {
+        transform: translate(0, 0) scale(0);
+        opacity: 1;
+      }
+      100% {
+        transform: translate(var(--tx), var(--ty)) scale(1);
+        opacity: 0;
+      }
+    }
+  
+    .animate-particle {
+      --tx: random(-50px, 50px);
+      --ty: random(-50px, 50px);
+      animation: particle 1s ease-out forwards;
+    }
+  }
