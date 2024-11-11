@@ -36,19 +36,19 @@ const experience = {
             duration: "Sep 2023 - Present",
         },
         {
-            company: "MTN Rwanda",
-            position: "Junior Software Engineer Intern",
+            company: "Techno Rwanda",
+            position: "Software Engineer Intern",
             duration: "May 2023 - Aug 2023",
         },
         {
-            company: "Tecno Mobile Rwanda",
-            position: "Software Engineer",
+            company: " Watchit Group inc",
+            position: "junior Embedded Systems Engineer",
             duration: "July 2022 - March 2023",
         },
         {
             company: "Equity Bank Limited",
             position: "Banking Intern",
-            duration: "Nov 2020 – Feb 2021",
+            duration: "Nov 2020 - Feb 2021",
         },
     ]
 };
