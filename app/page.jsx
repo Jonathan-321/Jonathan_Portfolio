@@ -26,7 +26,7 @@ const Home = () => {
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a
-                href="https://drive.google.com/file/d/1cMmwjJvi_QfAs45457MwJr3Wr4R7nto5/view?usp=sharing"
+                href="https://drive.google.com/file/d/1GhpubIs13KP2M3WoT1yeEIT7zZDt3ip9/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
