@@ -134,7 +134,7 @@ const Resume = () => {
     }, []);
 
     const openResume = () => {
-        window.open('https://drive.google.com/file/d/1GhpubIs13KP2M3WoT1yeEIT7zZDt3ip9/view?usp=sharing', '_blank');
+        window.open('https://drive.google.com/file/d/1UPygtDjEaVh5G7DA98DZNUikUTbaAq3t/view?usp=sharing', '_blank');
     };
 
     return (
